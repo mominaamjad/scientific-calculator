@@ -13,6 +13,8 @@ public class Calculator {
         MyFrame calculator = new MyFrame(); // object of class
 
         calculator.setTitle("Scientific Calculator");
+        Image image = new ImageIcon("./images/icon.png").getImage();
+        calculator.setIconImage(image);
         calculator.setSize(645, 500);
         calculator.setResizable(false);
         calculator.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
